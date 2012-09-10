@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\DAO\Account.h" />
+    <ClInclude Include="Src\DataBase\otlv4.h" />
+    <ClInclude Include="Src\Game\World.h" />
+    <ClInclude Include="Src\Script\PluginManager.h" />
+    <ClInclude Include="Src\targetver.h" />
+    <ClInclude Include="Src\Logic\Session.h" />
+    <ClInclude Include="Src\Logic\World.h" />
+    <ClInclude Include="Src\Game\Character.h" />
+    <ClInclude Include="Src\Game\Data\CharacterSpecs.h" />
+    <ClInclude Include="Src\Game\Data\Region.h" />
+    <ClInclude Include="Src\Logic\Account.h" />
+    <ClInclude Include="Src\Game\Service\CharacterService.h" />
+    <ClInclude Include="Src\Game\Inventory.h" />
+    <ClInclude Include="Src\DAO\Character.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Game\World.cpp" />
+    <ClCompile Include="Src\Script\PluginManager.cpp" />
+    <ClCompile Include="Src\stdafx.cpp" />
+    <ClCompile Include="Src\Swtor.cpp" />
+    <ClCompile Include="Src\Logic\Handlers\Authentication.cpp" />
+    <ClCompile Include="Src\Logic\Handlers\General.cpp" />
+    <ClCompile Include="Src\Logic\Handlers\Service.cpp" />
+    <ClCompile Include="Src\Logic\Senders\Client.cpp" />
+    <ClCompile Include="Src\Logic\Session.cpp" />
+    <ClCompile Include="Src\Logic\World.cpp" />
+    <ClCompile Include="Src\Game\Character.cpp" />
+    <ClCompile Include="Src\Logic\Senders\Service.cpp" />
+    <ClCompile Include="Src\Logic\Senders\General.cpp" />
+    <ClCompile Include="Src\Logic\Senders\Character.cpp" />
+    <ClCompile Include="Src\Logic\Handlers\Character.cpp" />
+    <ClCompile Include="Src\Logic\Senders\Chat.cpp" />
+    <ClCompile Include="Src\Logic\Handlers\Chat.cpp" />
+    <ClCompile Include="Src\Logic\Senders\Options.cpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{8fa19cbb-b1bc-4f22-8432-e39c83f0ebcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\DAO">
+      <UniqueIdentifier>{0ae3a4ae-3742-4ca2-adf1-e791c50b6cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Logic">
+      <UniqueIdentifier>{b96107d9-8040-4003-97da-c375813932d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Entity">
+      <UniqueIdentifier>{4328ce8f-a709-4a97-8803-2c3f679e4be3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\targetver.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Logic\Session.h">
+      <Filter>Src\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Logic\World.h">
+      <Filter>Src\Logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\stdafx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Swtor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Logic\Session.cpp">
+      <Filter>Src\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Logic\World.cpp">
+      <Filter>Src\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Logic\Handlers\Authentication.cpp" />
+  </ItemGroup>
+</Project>
